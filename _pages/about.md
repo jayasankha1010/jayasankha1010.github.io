@@ -8,11 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-Hello! Nice to have you here.
+Hello there! Nice to have you here.
 
 About me
 ======
-My name is Uluwitike Gamage Chathura Jayasankha. Currently I am a final year Biomedical and Electronics Engineering undergraduate at University of Moratuwa, Sri Lanka. I studied in Richmond College, Galle and ranked 2nd among 33600 candidates in GCE Adavnced Level Examinations 2016 from Physical Science stream(Z-score of 2.9244). 
+
+I am a PhD candidate in Artificial Intelligence Research Group at the University of Melbourne, where my research focuses on applying graph representation learning techniques to problems in computational genomics. Specifically, I work on disease gene prioritization using graph neural networks (GNNs), integrating information from protein-protein interaction networks, gene co-expression data, and ontology-based knowledge graphs. Before starting my PhD, I worked as a Senior Software Engineer at Yaala Labs, contributing to systems in the FinTech domains. I hold a bachelor's degree in Biomedical Engineering from University of Moratuwa, and I’m deeply interested in exploring how machine learning can uncover patterns in complex biological systems. Through my research and writing, I hope to bridge the gap between algorithmic innovation and biomedical discovery.
+
+### Research Interests
+* **Genomics:** Disease gene prioritization and multi-omics integration.
+* **Neuroscience:** EEG/fNIRS signal processing and brain-computer interfaces.
+* **Machine Learning:** Deep learning, explainable AI, and pattern recognition.
+
+
+### News
+* **Jan 2026:** Attended AAAI conference in Singapore. 
+* **Nov 2025:** Presented research at the **Epilepsy Society of Australia’s (ESA) 39th Annual Scientific Meeting** in Perth.
+* **Oct 2025:** Officially **confirmed my PhD candidature** at the University of Melbourne!
+* **Jul 2025:** Started a part-time position as a **Research Assistant** at the University of Melbourne.
+* **Oct 2024:** Commenced PhD research at the University of Melbourne within the AI, Optimization and Pattern Recognition Group.
+* **Jul 2024:** Awarded the **Melbourne Research Scholarship** for doctoral studies.
+* **Mar 2024:** Promoted to **Senior Software Engineer** at Yaala Labs.
+* **Dec 2023:** Presented two papers at **IEEE ICIIS 2023** on fNIRS and EEG signal processing.
+* **Jul 2022:** Graduated from the **University of Moratuwa** with **First Class Honours** in Biomedical Engineering.
+* **Nov 2019:** Won **First Place** in the 1st International Electricity Market Business Simulation Competition in **Shanghai, China**.
+* **Jul 2017:** Represented Sri Lanka at the **International Physics Olympiad (IPhO) in Indonesia**.
+* **May 2017:** Represented Sri Lanka at the **Asian Physics Olympiad (APhO) in Russia**.
+* **Dec 2016:** Ranked **2nd in the Island** (out of 33,000+ candidates) in the G.C.E. Advanced Level Examination (Physical Science Stream).
 
 <!--
 Getting started
@@ -26,7 +48,7 @@ Getting started
 
 Site-wide configuration
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a visits or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
 Create content & metadata
 ------

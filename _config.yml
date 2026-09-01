@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal Blog"
+title                    : "Chathura Jayasankha Gamage"
 title_separator          : "-"
 name                     : &name "Chathura Jayasankha Gamage"
-description              : &description "Final year Biomedical and Electronics Undergraduate"
-url                      : https://jayasankha1010.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Graduate Researcher at University of Melbourne | AI for Healthcare"
+url                      : https://chathurajayasankha.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jayasankha1010/jayasankha1010.github.io"
+repository               : "chathurajayasankha/chathurajayasankha.github.io"
 teaser                   : #"jayasankha.jpeg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : nh02usC1OIPTUtGnWv6BMSvXs-SAmpHvT5uIZ5qN_pk
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Chathura Jayasankha Gamage"
   avatar           : "jayasankha.jpeg"
-  bio              : "Final year Biomedical and Electronics Engineering Undergraduate"
-  location         : "Sri Lanka"
-  employer         :
+  bio              : "Graduate Researcher at AI, Optimization and Pattern Recognition Research Group, University of Melbourne"
+  location         : "Melbourne, VIC"
+  employer         : "University of Melbourne"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com.au/citations?user=FellNFwAAAAJ&hl=en&oi=ao"
   email            : "jayasankha1010@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -181,7 +181,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  visits:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +230,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _visits
   - scope:
       path: ""
-      type: portfolio
+      type: visits
     values:
       layout: single
       author_profile: true
@@ -275,7 +278,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Melbourne
 
 
 # Plugins
@@ -291,6 +294,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
